@@ -1,0 +1,36 @@
+.container{ 
+	width: 50%;
+	background-color: darkGray;
+	color: black;
+	margin: auto;
+}
+.calculatorContainer h1{
+	text-align: center;
+}
+#result{
+	background-color: #bdb76b;
+	margin:auto;
+	width: 100%;
+	height: 40px;
+	font-size: 30px;
+	text-align: right;
+}
+.keyContainer{
+	width: 100%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+	grid-gap: 5px;
+}
+.calculatorKeys{
+	background-color: #dcdcdc;
+}
+#firstNumber{
+	grid-column: 1 / 4;
+}
+#secondNumber{
+	grid-column: 5 / 8;
+}
+#equal{
+	grid-column: 1 / 8;
+}
